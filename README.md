@@ -13,10 +13,10 @@ Manage your groceries and bills with style and simplicity. This web app, built w
 ## 🖼️ Screenshots
 
 ### Grocery List
-![Grocery List Screenshot](link-to-grocery-list-screenshot.png) 
+![Grocery List Screenshot](screenshot.JPG) 
 
 ### Bill View
-![Bill Screenshot](link-to-bill-screenshot.png) 
+![Bill Screenshot](screenshot1.JPG) 
 
 ## 🚀 Getting Started
 
