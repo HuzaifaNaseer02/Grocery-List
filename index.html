@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Bill App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Grocery List</h1>
+
+        <!-- Main Interface -->
+        <div id="mainInterface">
+            <div class="input-section">
+                <input type="text" id="itemInput" placeholder="Enter item name">
+                <input type="text" id="quantityInput" placeholder="Enter quantity">
+                <button onclick="addItem()">Add to List</button>
+            </div>
+            <ul id="groceryList"></ul>
+            <div class="viewBillSection">
+                <button onclick="viewBill()">View Bill</button>
+            </div>
+        </div>
+
+        <!-- Bill Section -->
+        <div id="billSection" style="display: none;">
+            <h2>Your Bill</h2>
+            <ul id="billList"></ul>
+            <h2>Total: <span id="totalBill">Rs0.00</span></h2>
+            <div class="billButtons">
+                <button onclick="backToItems()">Back</button>
+                <button onclick="saveAsPDF()">Save as PDF</button>
+                <button onclick="clearBill()">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
